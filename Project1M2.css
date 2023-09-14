@@ -1,0 +1,212 @@
+form input[type="type"] {
+    width: 400px; 
+    height: 30px;
+    font-size: 18px; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+
+
+form input[type="submit"] {
+    background-color: blue; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+}
+
+form input[type="submit"]:hover {
+    background-color: blue; /* Changes the background color to a darker red when the submit button is hovered */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+    
+    text-align:center
+}
+
+.searchedit{
+    padding: 20px;
+    font-size: 15px;
+    width: 100%;
+}
+
+
+.menu-style{
+    list-style:none;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    border-collapse:collapse;
+    margin: 0 10px;
+    padding:10px;
+    display:flex;
+    word-spacing: 10px;
+}
+
+.menu-color{
+    background-color: lightgrey;
+    padding:10px
+
+}
+
+#menu{
+    padding: 10px;
+}
+
+.box_table>table {
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    border-collapse:collapse;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+    
+    .box_table>table th, .box_table>table td{
+    border:1px solid black;
+    padding: 5px;
+    text-align: center;
+    table-layout: center;
+    
+    }
+    
+    .box_table>table th {
+      background-color:lightgrey
+    }
+    
+
+
+
+
+
+
+
+    .colorchange1{
+        padding: 10px;
+        border: solid black;
+        background-color: lightgrey;
+    }
+
+
+
+
+    .colorchange2 li{
+        border: solid black;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: lightgrey;
+        list-style-type: none;
+    }
+
+
+    .colorchange3 li{
+        border: solid black;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: lightgrey;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .colorchange4 {
+        padding: 10px;
+        border: solid black;
+        background-color: lightgrey;
+        text-align: center;
+
+    }
+
+      .colorchange4 {
+        padding: 10px;
+        border: solid black;
+        background-color: lightgrey;
+        text-align: center;
+
+    }
+
+    .colorchange5 {
+        padding: 10px;
+        border: solid black;
+        background-color: lightgrey;
+        text-align: center;
+
+    }
+
+    .colorchange6 li{
+        border: solid black;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: lightgrey;
+        list-style-type: none;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+    .vid1change{
+        border: solid black;
+        background-color: lightgrey;
+        text-align: center;
+        list-style-type: none;
+
+
+    }
+   
+
+    
+    .vid2change{
+        border: solid black;
+        background-color: lightgrey;
+        text-align: center;
+        list-style-type: none;
+
+        
+    }
+
+    
+    .vid3change{
+        border: solid black;
+        background-color: lightgrey;
+        text-align: center;
+        list-style-type: none;
+        
+    }
+
+
+    
+@media print{
+    .screen_only {
+      display:none
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    body{
+      background-color: lightblue;
+  
+    
+  }
+}
