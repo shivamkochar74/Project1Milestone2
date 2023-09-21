@@ -17,7 +17,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: blue; /* Changes the background color to a darker red when the submit button is hovered */
+    background-color: blue; 
 }
 
 
